@@ -2,12 +2,7 @@
 # How to run this Project:
 
 # Setting up the DB
-If you don't have a docker SQL Server set up, run this cmd.
-(You need a docker.compose.yml)
-```bash
-docker-compose up -d
-```
-* We're using Azure Data Studio to check the db structure.
+Use Azure Data Studio to check the db structure.
 
 ## Connecting in Azure Data Studio:
 --> New Connection, then type:
