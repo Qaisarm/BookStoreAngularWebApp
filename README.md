@@ -28,6 +28,7 @@ Use Azure Data Studio to check the db structure.
   dotnet --list-sdks
   ```
   <br />
+  
    ###  Clone the github project
   To Get Started, clone the github project to your own machine
   ```bash
@@ -40,10 +41,13 @@ Use Azure Data Studio to check the db structure.
  ## Setting Up Entity Framework
   Now that you have a Database Server setted up, you need to add the tables to the Database.
   First make sure that you have *.NET Entity Framework tools* installed.
+  
   ```bash
   dotnet tool install --global dotnet-ef
   ```
+
   Verify that it has been installed correctly by running
+  
   ```bash
   dotnet ef
   ```
@@ -64,13 +68,17 @@ Entity Framework Core .NET Command-line Tools 2.1.3-rtm-32065
   ```
   Now that you have installed this tool, you need to create a migration by running:
   *Note: You´ll have to run this next two commands everytime you change a model to update the database.
+  
   ```bash
   dotnet ef migrations add InitialMigration
   ```
+
  Now that you have a migration file, update the database.
+ 
    ```bash
     dotnet ef database update
 ```
+
 ###  Setting Up Front End
 On the client folder, make sure that you have installed all the modules needed:
  ```bash
