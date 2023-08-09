@@ -48,7 +48,8 @@ Use Azure Data Studio to check the db structure.
   dotnet ef
   ```
   You should get something that looks like this:
-  ```bash
+  
+  ```
   _/\__
                ---==/    \\
          ___  ___   |.    \|\
