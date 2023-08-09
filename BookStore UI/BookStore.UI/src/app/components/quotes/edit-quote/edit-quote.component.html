@@ -1,0 +1,26 @@
+<div class="container my-5">
+    <h1 class="mb-3"> Edit Quote</h1>
+    <form #form="ngForm" (ngSubmit)="updateQuote()" >
+        <div class="mb-3">
+            <label for="id" class="form-label">Id</label>
+            <input type="text" class="form-control" id="id" readonly
+            name="id" [(ngModel)] = "quoteDetails.id" >
+          </div>
+     <div class="mb-3">
+       <label for="title" class="form-label">Quote</label>
+       <input type="text" class="form-control" id="title"
+       name="title" [(ngModel)] = "quoteDetails.title" >
+     </div>
+     <div class="mb-3">
+         <label for="author" class="form-label">Author</label>
+         <input type="text" class="form-control" id="author"
+         name="author" [(ngModel)] = "quoteDetails.author">
+       </div>
+     
+       <button type="submit" class="btn btn-primary "><i class="fa-regular fa-floppy-disk"></i> Save</button>
+      
+
+   </form>
+ 
+ </div>
+ 

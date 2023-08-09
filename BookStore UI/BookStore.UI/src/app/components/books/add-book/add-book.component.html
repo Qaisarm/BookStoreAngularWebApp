@@ -1,0 +1,51 @@
+<div class="container my-5">
+   <h1 class="mb-3"> Add New Book</h1>
+   <form #form="ngForm" (ngSubmit)="addBook()">
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input type="text" class="form-control" id="title"
+      name="title" [(ngModel)] = "addBookRequest.title" >
+    </div>
+    <div class="mb-3">
+        <label for="author" class="form-label">Author</label>
+        <input type="text" class="form-control" id="author"
+        name="author" [(ngModel)] = "addBookRequest.author">
+      </div>
+    
+      <div class="mb-3">
+        <label for="pubdate" class="form-label" >Publication Date</label>
+        <input type="text" class="form-control" id="pubdate" placeholder="2023-01-01"
+        name="pubdate" [(ngModel)] = "addBookRequest.publicationDate">
+      </div>
+      <button type="submit" class="btn btn-primary"> <i class="fa-regular fa-floppy-disk"></i> Save</button>
+  </form>
+
+</div>
+
+<style>
+  /* Adjust styles for different screen widths */
+  @media (max-width: 320px) {
+      .table-responsive-sm,
+      .table-responsive-md,
+      .table-responsive-lg {
+          overflow-x: auto;
+      }
+  }
+  
+  @media (max-width: 375px) {
+      .table-responsive-sm,
+      .table-responsive-md,
+      .table-responsive-lg {
+          overflow-x: auto;
+      }
+  }
+  
+  @media (max-width: 425px) {
+      .table-responsive-sm,
+      .table-responsive-md,
+      .table-responsive-lg {
+          overflow-x: auto;
+      }
+  }
+  </style>
+  

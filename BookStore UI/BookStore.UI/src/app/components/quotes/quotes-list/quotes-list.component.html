@@ -1,0 +1,27 @@
+<div class="container my-5">
+    <div class="d-flex justify-content-end">
+        <button class="btn btn-primary" [routerLink]="['/quotes', 'add']">Add Quote</button>
+      </div>
+      
+    <h1 class="mb-3">Quotes</h1>
+
+    <!-- Display all quotes as cards -->
+    <div class="card mb-3" *ngFor="let quote of quotes">
+        <div class="card-body">
+            
+            <p class="card-text">{{quote.title}}</p>
+            <h6 class="card-subtitle mb-2 text-italic">"{{quote.author}}"</h6>
+            <div class="btn-group">
+                <button [routerLink]="['/quotes', 'edit', quote.id]" class="btn btn-primary btn-sm">
+                    <i class="fa-regular fa-pen-to-square"></i> Edit
+                </button>
+                <button type="button" class="btn btn-danger btn-sm mx-2" (click)="deleteQuote(quote.id)">
+                    <i class="fa-regular fa-trash-can"></i> Delete
+                </button>
+            </div>
+                </div>
+    </div>
+   
+    <p *ngIf="!quotes || quotes.length === 0">No Quotes Found</p>
+</div>
+
