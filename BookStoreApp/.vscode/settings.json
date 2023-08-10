@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6e578ec1-dbea-4bb6-a4d8-357cf66cea63/resourceGroups/webapi/providers/Microsoft.Web/sites/webapibookstore",
+    "appService.deploySubpath": "dist/book-store-app"
+}

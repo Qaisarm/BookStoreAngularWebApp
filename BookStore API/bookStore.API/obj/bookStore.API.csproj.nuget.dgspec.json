@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStore API/bookStore.API/bookStore.API.csproj": {}
+    "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStoreAngularWebApp/BookStore API/bookStore.API/bookStore.API.csproj": {}
   },
   "projects": {
-    "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStore API/bookStore.API/bookStore.API.csproj": {
+    "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStoreAngularWebApp/BookStore API/bookStore.API/bookStore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStore API/bookStore.API/bookStore.API.csproj",
+        "projectUniqueName": "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStoreAngularWebApp/BookStore API/bookStore.API/bookStore.API.csproj",
         "projectName": "bookStore.API",
-        "projectPath": "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStore API/bookStore.API/bookStore.API.csproj",
+        "projectPath": "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStoreAngularWebApp/BookStore API/bookStore.API/bookStore.API.csproj",
         "packagesPath": "/Users/qaisarmukhtar/.nuget/packages/",
-        "outputPath": "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStore API/bookStore.API/obj/",
+        "outputPath": "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStoreAngularWebApp/BookStore API/bookStore.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/qaisarmukhtar/.nuget/NuGet/NuGet.Config"

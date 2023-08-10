@@ -1,0 +1,40 @@
+<div class="container-sm my-5">
+    <div class="d-flex justify-content-end">
+        <button class="btn btn-primary" [routerLink]="['/books', 'add']">Add Book</button>
+    </div>
+    
+    <h1 class="mb-3">Books</h1>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered table-mobile-compact" *ngIf="books && books.length > 0">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Publication Date</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let book of books">
+                    <td>{{book.id}}</td>
+                    <td>{{book.title}}</td>
+                    <td>{{book.author}}</td>
+                    <td>{{book.publicationDate | date:'yyyy-MM-dd'  }}</td>
+                    <td>
+                        <div class="btn-group">
+                            <button [routerLink]="['/books', 'edit', book.id]" class="btn btn-primary btn-sm">
+                                <i class="fa-regular fa-pen-to-square"></i> Edit
+                            </button>
+                            <button type="button" class="btn btn-danger btn-sm mx-2" (click)="deleteBook(book.id,'books')">
+                                <i class="fa-regular fa-trash-can"></i> Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p *ngIf="!books || books.length === 0">No Books Found</p>
+    </div>
+</div>

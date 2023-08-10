@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin/Release/net6.0/publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/6e578ec1-dbea-4bb6-a4d8-357cf66cea63/resourceGroups/webapi/providers/Microsoft.Web/sites/bookstoreapiweb"
+}

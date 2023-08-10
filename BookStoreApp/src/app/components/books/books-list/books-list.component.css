@@ -1,0 +1,15 @@
+/* Add this CSS to your stylesheet */
+@media (max-width: 767px) {
+    .table-mobile-compact {
+        font-size: 12px; /* Adjust the font size as needed */
+    }
+
+    .table-mobile-compact td,
+    .table-mobile-compact th {
+        padding: 0.3rem 0.5rem; /* Adjust padding as needed */
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+}

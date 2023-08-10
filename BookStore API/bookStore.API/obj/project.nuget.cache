@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "loC9qkddTpAvJ5kB9g5ZECdEYhbHn/uVdHE826yN6/90/D5yqmT6HeUswTQrRaXWvD4xsz8uocRkYJ58ayvhwg==",
+  "dgSpecHash": "EQA8gocTyunEAFTh+V+qtRstaTt5FazRQrpD9L3l4r/tlPgebHmk41IJHNr2gkhOaFrvto/8pnrc+T5jpyJTaw==",
   "success": true,
-  "projectFilePath": "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStore API/bookStore.API/bookStore.API.csproj",
+  "projectFilePath": "/Users/qaisarmukhtar/Documents/Book Store Angular WebApp/BookStoreAngularWebApp/BookStore API/bookStore.API/bookStore.API.csproj",
   "expectedPackageFiles": [
     "/Users/qaisarmukhtar/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/qaisarmukhtar/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.0/microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
